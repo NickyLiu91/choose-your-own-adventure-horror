@@ -1,16 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import homePage from './HomePage.js' 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
-      <body>
-      <img src="images/cover.jpg" />
-      <p>Augmented Reality</p>
-      </body>
+      <homePage />
     </div>
   );
 }
