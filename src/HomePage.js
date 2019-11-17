@@ -1,6 +1,6 @@
 import React from "react";
 
-export default class HomePage extends React.component {
+export default class HomePage extends React.Component {
   render() {
     return(
       <div id='homePage'>
@@ -10,5 +10,4 @@ export default class HomePage extends React.component {
       </div>
     )
   }
-
 }
