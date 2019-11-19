@@ -24,7 +24,7 @@ export default class HomePage extends React.Component {
     } else if (this.state.show == "begin") {
       return(
         <div id='homePage'>
-          <img src="images/cover.jpg" />
+          <img src="images/bedroom.jpg" />
           <p>Text</p>
           <p>Text</p>
           <p>Text</p>
