@@ -1,6 +1,4 @@
 import React from "react";
-let area = 0
-let text = 0
 
 let areaArray = [
   "cover", "bedroom"
@@ -23,17 +21,15 @@ export default class HomePage extends React.Component {
     text: 0
   }
 
-  changePage = (event) => {
-    this.setState({
-      show: event
-    })
-  }
-
   next = () => {
-    if (text == story[areaArray[area]].length - 1) {
+    if (this.state.text == story[areaArray[this.state.area]].length - 1) {
       this.setState({
-        area: this.state.area ++,
-        text: this.state.text ++
+        area: this.state.area + 1,
+        text: 0
+      })
+    } else {
+      this.setState({
+        text: this.state.text + 1
       })
     }
   }
@@ -41,8 +37,8 @@ export default class HomePage extends React.Component {
   render() {
     return(
       <div id='homePage'>
-        <img src={"images/" + areaArray[area] + ".jpg"} />
-        <p>{story[areaArray[area]][text]}</p>
+        <img src={"images/" + areaArray[this.state.area] + ".jpg"} />
+        <p>{story[areaArray[this.state.area]][this.state.text]}</p>
         <p onClick={(event) => {this.next(event)}}>Begin</p>
       </div>
     )
