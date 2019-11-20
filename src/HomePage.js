@@ -19,7 +19,8 @@ const story = {
 export default class HomePage extends React.Component {
 
   state = {
-    show: 'home'
+    area: 0,
+    text: 0
   }
 
   changePage = (event) => {
@@ -29,9 +30,11 @@ export default class HomePage extends React.Component {
   }
 
   next = () => {
-    if (text == story[area].length - 1) {
-      area += 1
-      text = 0
+    if (text == story[areaArray[area]].length - 1) {
+      this.setState({
+        area: this.state.area ++,
+        text: this.state.text ++
+      })
     }
   }
 
@@ -41,7 +44,7 @@ export default class HomePage extends React.Component {
         <div id='homePage'>
           <img src="images/cover.jpg" />
           <p>{story[areaArray[area]][text]}</p>
-          <p onClick={(event) => {this.text(event)}}>Begin</p>
+          <p onClick={(event) => {this.next(event)}}>Begin</p>
         </div>
       )
     } else if (this.state.show == "begin") {
