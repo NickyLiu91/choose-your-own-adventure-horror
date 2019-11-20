@@ -8,7 +8,7 @@ const story = {
     "cover": ["Augmented Reality"]
   ,
     "bedroom": [
-    "You open your eyes and look around. You are in your nerded out room with your bed which looked like a spaceship and sci-fi figures everywhere. Star Wars, Star Trek, Aliens, every nerdy franchise you cna think of.",
+    "You open your eyes and look around. You are in your nerded out room with your bed which looked like a spaceship and sci-fi figures everywhere. Star Wars, Star Trek, Aliens, every nerdy franchise you can think of.",
     "But all of that pales in comparison to what arrives today..."
   ]
 
@@ -35,28 +35,22 @@ export default class HomePage extends React.Component {
   }
 
   render() {
-    return(
-      <div id='homePage'>
-        <img src={"images/" + areaArray[this.state.area] + ".jpg"} />
-        <p>{story[areaArray[this.state.area]][this.state.text]}</p>
-        <p onClick={(event) => {this.next(event)}}>Begin</p>
-      </div>
-    )
-    // if (this.state.show == 'home') {
-    //   return(
-    //     <div id='homePage'>
-    //       <img src="images/cover.jpg" />
-    //       <p>{story[areaArray[area]][text]}</p>
-    //       <p onClick={(event) => {this.next(event)}}>Begin</p>
-    //     </div>
-    //   )
-    // } else if (this.state.show == "begin") {
-    //   return(
-    //     <div id='homePage'>
-    //       <img src="images/bedroom.jpg" />
-    //       <p></p>
-    //     </div>
-    //   )
-    // }
+    if (this.state.area == 0) {
+      return(
+        <div id='homePage'>
+          <img src="images/cover.jpg" />
+          <p>{story[areaArray[this.state.area]][this.state.text]}</p>
+          <p onClick={(event) => {this.next(event)}}>Begin</p>
+        </div>
+      )
+    } else {
+      return(
+        <div id='homePage'>
+          <img src={"images/" + areaArray[this.state.area] + ".jpg"} />
+          <p>{story[areaArray[this.state.area]][this.state.text]}</p>
+          <p onClick={(event) => {this.next(event)}}>Next</p>
+        </div>
+      )
+    }
   }
 }
