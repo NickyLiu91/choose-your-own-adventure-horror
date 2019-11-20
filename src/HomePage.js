@@ -2,17 +2,19 @@ import React from "react";
 let area = 0
 let text = 0
 
-const story = [
-  {
+let areaArray = [
+  "home", "begin"
+]
+
+const story = {
     "home": ["Augmented Reality"]
-  },
-  {
+  ,
     "begin": [
     "You open your eyes and look around. You are in your nerded out room with your bed which looked like a spaceship and sci-fi figures everywhere. Star Wars, Star Trek, Aliens, every nerdy franchise you cna think of.",
     "But all of that pales in comparison to what arrives today..."
   ]
+
 }
-]
 
 export default class HomePage extends React.Component {
 
@@ -38,7 +40,7 @@ export default class HomePage extends React.Component {
       return(
         <div id='homePage'>
           <img src="images/cover.jpg" />
-          <p>{story[area][text]}</p>
+          <p>{story[areaArray[area]][text]}</p>
           <p onClick={(event) => {this.text(event)}}>Begin</p>
         </div>
       )
