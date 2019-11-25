@@ -1,7 +1,7 @@
 import React from "react";
 
 let areaArray = [
-  "cover", "bedroom"
+  "cover", "bedroom", "gear", "bedroom"
 ]
 
 const story = {
@@ -9,9 +9,18 @@ const story = {
   ,
     "bedroom": [
     "You open your eyes and look around. You are in your nerded out room with your bed which looked like a spaceship and sci-fi figures everywhere. Star Wars, Star Trek, Aliens, every nerdy franchise you can think of.",
-    "But all of that pales in comparison to what arrives today..."
+    "But all of that pales in comparison to what arrives today...",
+    "Alien Invasion!"
+  ],
+  "gear": [
+    "Alien Invasion was the hottest and most anticipated release of the year.",
+    "It was an augmented reality game that cmae with a headset and 'gun', and would augment your vision to show aliens in random places.",
+    "Players had to shoot and kill these aliens, and the player who killed the most aliens would receive an invitiation to meet the developers themselves at Area 51."
+  ],
+  "bedroom": [
+    "Seeing what's inside Area 51 is every sci-fi nerd's dream!",
+    "'I will definitely being the greatest alien slayer!' you declare loudly as you hold up the gaming equipment."
   ]
-
 }
 
 export default class HomePage extends React.Component {
