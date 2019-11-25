@@ -60,10 +60,13 @@ export default class HomePage extends React.Component {
     //     text: this.state.text + 1
     //   })
     // }
-    console.log(this.state.text)
-    console.log(Object.values(story[this.state.area]))
+    // console.log(this.state.text)
+    console.log(Object.keys(story[this.state.area]))
+    console.log(Object.values(story[this.state.area])[0])
+    console.log(Object.values(story[this.state.area])[0][this.state.text])
+    // console.log(Object.keys(story[this.state.area]))
     // console.log(Object.values(story[this.state.area])[0])
-    if (Object.values(story[this.state.area])[this.state.text] == Object.values(story[this.state.area]).length - 1) {
+    if (this.state.text == Object.values(story[this.state.area])[0].length - 1) {
       this.setState({
         area: this.state.area + 1,
         text: 0
@@ -80,15 +83,15 @@ export default class HomePage extends React.Component {
       return(
         <div id='homePage'>
           <img src="images/cover.jpg" />
-          <p>{Object.values(story[this.state.area])[this.state.text]}</p>
+          <p>{Object.values(story[this.state.area])[0][this.state.text]}</p>
           <p onClick={(event) => {this.next(event)}}>Begin</p>
         </div>
       )
     } else {
       return(
         <div id='homePage'>
-          <img src={"images/" + Object.keys(story[this.state.area][0]) + ".jpg"} />
-          <p>{Object.values(story[this.state.area])[this.state.text][0]}</p>
+          <img src={"images/" + Object.keys(story[this.state.area])[0] + ".jpg"} />
+          <p>{Object.values(story[this.state.area])[0][this.state.text]}</p>
           <p onClick={(event) => {this.next(event)}}>Next</p>
         </div>
       )
