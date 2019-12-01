@@ -42,9 +42,11 @@ const story = [
     "You tear open the package and reveal the glorious alien slaying box set in front of you.",
     "You then remember that you and your best friend Dave made plans to start the game together.",
     "Dave is a video gaming diety.",
-    "Any game he picks up he is insantly great at.",
+    "Any game he picks up he becomes great insantly, then gets bored and quits.",
     "He has even been scouted for pro teams for a variety of games already.",
-    "In contrast you put in countless ho"
+    "In contrast you put in countless hours into all of the games and have never been top tier.",
+    " 'Curse you Dave!' you mutter in your heart.",
+    "Perhaps you can get a head start on him with Alien Invasion and finally surpass him?"
   ]}
 ]
 
