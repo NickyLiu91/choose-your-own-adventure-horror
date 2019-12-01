@@ -55,7 +55,8 @@ export default class HomePage extends React.Component {
 
   state = {
     area: 0,
-    text: 0
+    text: 0,
+    choice: ''
   }
 
   next = () => {
@@ -87,6 +88,14 @@ export default class HomePage extends React.Component {
     }
   }
 
+  makeChoice = (event) => {
+    this.setState({
+      choice: event
+    }, () => {
+      console.log(event)
+    })
+  }
+
   render() {
     if (this.state.area == 0) {
       return(
@@ -101,8 +110,8 @@ export default class HomePage extends React.Component {
         return(
           <div id='homePage'>
             <img src={"images/" + Object.keys(story[this.state.area])[0] + ".jpg"} />
-            <p>{Object.values(Object.values(story[this.state.area])[0][this.state.text])[0][0]}</p>
-            <p>{Object.values(Object.values(story[this.state.area])[0][this.state.text])[0][1]}</p>
+            <p onClick={(event) => {this.makeChoice(Object.values(Object.values(story[this.state.area])[0][this.state.text])[0][0])}}>{Object.values(Object.values(story[this.state.area])[0][this.state.text])[0][0]}</p>
+            <p onClick={(event) => {this.makeChoice(Object.values(Object.values(story[this.state.area])[0][this.state.text])[0][1])}}>{Object.values(Object.values(story[this.state.area])[0][this.state.text])[0][1]}</p>
           </div>
         )
       } else {
