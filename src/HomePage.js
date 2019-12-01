@@ -46,7 +46,8 @@ const story = [
     "He has even been scouted for pro teams for a variety of games already.",
     "In contrast you put in countless hours into all of the games and have never been top tier.",
     " 'Curse you Dave!' you mutter in your heart.",
-    "Perhaps you can get a head start on him with Alien Invasion and finally surpass him?"
+    "Perhaps you can get a head start on him with Alien Invasion and finally surpass him?",
+    {"choice": ["Wait for him.", "Get a head start."]}
   ]}
 ]
 
@@ -96,13 +97,24 @@ export default class HomePage extends React.Component {
         </div>
       )
     } else {
-      return(
-        <div id='homePage'>
+      if (Object.keys(Object.values(story[this.state.area])[0][this.state.text])[0] == "choice") {
+        return(
+          <div id='homePage'>
+          CHOICE TIME
+          CHOICE TIME
+          CHOICE TIME
+          CHOICE TIME
+          </div>
+        )
+      } else {
+        return(
+          <div id='homePage'>
           <img src={"images/" + Object.keys(story[this.state.area])[0] + ".jpg"} />
           <p>{Object.values(story[this.state.area])[0][this.state.text]}</p>
           <p onClick={(event) => {this.next(event)}}>Next</p>
-        </div>
-      )
+          </div>
+        )
+      }
     }
   }
 }
