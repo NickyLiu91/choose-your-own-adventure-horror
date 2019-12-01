@@ -38,7 +38,13 @@ const story = [
   ]},
   {"bedroom": [
     "Seeing what's inside Area 51 is every sci-fi nerd's dream!",
-    "'I will definitely being the greatest alien slayer!' you declare loudly as you hold up the gaming equipment."
+    "'I will definitely being the greatest alien slayer!' you declare loudly as you hold up the gaming equipment.",
+    "You tear open the package and reveal the glorious alien slaying box set in front of you.",
+    "You then remember that you and your best friend Dave made plans to start the game together.",
+    "Dave is a video gaming diety.",
+    "Any game he picks up he is insantly great at.",
+    "He has even been scouted for pro teams for a variety of games already.",
+    "In contrast you put in countless ho"
   ]}
 ]
 
