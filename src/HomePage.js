@@ -96,6 +96,12 @@ export default class HomePage extends React.Component {
     })
   }
 
+  generateChoices = () => {
+    return Object.values(Object.values(story[this.state.area])[0][this.state.text])[0].map(
+      choice => <p onClick={(event) => {this.makeChoice(choice)}}>{choice}</p>
+    )
+  }
+
   render() {
     if (this.state.area == 0) {
       return(
@@ -110,8 +116,7 @@ export default class HomePage extends React.Component {
         return(
           <div id='homePage'>
             <img src={"images/" + Object.keys(story[this.state.area])[0] + ".jpg"} />
-            <p onClick={(event) => {this.makeChoice(Object.values(Object.values(story[this.state.area])[0][this.state.text])[0][0])}}>{Object.values(Object.values(story[this.state.area])[0][this.state.text])[0][0]}</p>
-            <p onClick={(event) => {this.makeChoice(Object.values(Object.values(story[this.state.area])[0][this.state.text])[0][1])}}>{Object.values(Object.values(story[this.state.area])[0][this.state.text])[0][1]}</p>
+            {this.generateChoices()}
           </div>
         )
       } else {
