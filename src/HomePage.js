@@ -100,18 +100,17 @@ export default class HomePage extends React.Component {
       if (Object.keys(Object.values(story[this.state.area])[0][this.state.text])[0] == "choice") {
         return(
           <div id='homePage'>
-          CHOICE TIME
-          CHOICE TIME
-          CHOICE TIME
-          CHOICE TIME
+            <img src={"images/" + Object.keys(story[this.state.area])[0] + ".jpg"} />
+            <p>{Object.values(Object.values(story[this.state.area])[0][this.state.text])[0][0]}</p>
+            <p>{Object.values(Object.values(story[this.state.area])[0][this.state.text])[0][1]}</p>
           </div>
         )
       } else {
         return(
           <div id='homePage'>
-          <img src={"images/" + Object.keys(story[this.state.area])[0] + ".jpg"} />
-          <p>{Object.values(story[this.state.area])[0][this.state.text]}</p>
-          <p onClick={(event) => {this.next(event)}}>Next</p>
+            <img src={"images/" + Object.keys(story[this.state.area])[0] + ".jpg"} />
+            <p>{Object.values(story[this.state.area])[0][this.state.text]}</p>
+            <p onClick={(event) => {this.next(event)}}>Next</p>
           </div>
         )
       }
