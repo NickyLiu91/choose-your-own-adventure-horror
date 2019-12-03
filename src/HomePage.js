@@ -70,7 +70,7 @@ const story = [
 export default class HomePage extends React.Component {
 
   state = {
-    area: 0,
+    section: 0,
     text: 0,
     choice: ''
   }
@@ -87,14 +87,11 @@ export default class HomePage extends React.Component {
     //   })
     // }
     // console.log(this.state.text)
-    console.log(Object.keys(story[this.state.area]))
-    console.log(Object.values(story[this.state.area])[0])
-    console.log(Object.values(story[this.state.area])[0][this.state.text])
     // console.log(Object.keys(story[this.state.area]))
     // console.log(Object.values(story[this.state.area])[0])
-    if (this.state.text == Object.values(story[this.state.area])[0].length - 1) {
+    if (this.state.text == story[this.state.section].text.length - 1) {
       this.setState({
-        area: this.state.area + 1,
+        area: this.state.section + 1,
         text: 0
       })
     } else {
