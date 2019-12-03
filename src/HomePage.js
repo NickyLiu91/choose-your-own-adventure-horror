@@ -39,7 +39,7 @@ const story = [
       "In contrast you put in countless hours into all of the games and have never been top tier.",
       " 'Curse you Dave!' you mutter in your heart.",
       "Perhaps you can get a head start on him with Alien Invasion and finally surpass him?",
-      {"choice": ["Wait for him.", "Get a head start."]}
+      {choices: ["Wait for him.", "Get a head start."]}
     ]
   }
 ]
@@ -72,7 +72,7 @@ export default class HomePage extends React.Component {
   }
 
   generateChoices = () => {
-    return Object.values(Object.values(story[this.state.section])[0][this.state.text])[0].map(
+    return story[this.state.section].text[this.state.text].choices.map(
       choice => <p onClick={(event) => {this.makeChoice(choice)}}>{choice}</p>
     )
   }
@@ -87,7 +87,7 @@ export default class HomePage extends React.Component {
         </div>
       )
     } else {
-      if (story[this.state.section].text[this.state.text] == "choice") {
+      if (Object.values(story[this.state.section].text[this.state.text]).length == 1) {
         return(
           <div id='homePage'>
             <img src={"images/" + story[this.state.section].background + ".jpg"} />
