@@ -24,31 +24,47 @@ let areaArray = [
 // }
 
 const story = [
-    {"cover": ["Augmented Reality"]}
+  {
+    section: 1,
+    background: "cover",
+    text: ["Augmented Reality"]
+  }
   ,
-    {"bedroom": [
-    "You open your eyes and look around. You are in your nerded out room with your bed which looked like a spaceship and sci-fi figures everywhere. Star Wars, Star Trek, Aliens, every nerdy franchise you can think of.",
-    "But all of that pales in comparison to what arrives today...",
-    "Alien Invasion!"
-  ]},
-  {"gear": [
-    "Alien Invasion was the hottest and most anticipated release of the year.",
-    "It was an augmented reality game that cmae with a headset and 'gun', and would augment your vision to show aliens in random places.",
-    "Players had to shoot and kill these aliens, and the player who killed the most aliens would receive an invitiation to meet the developers themselves at Area 51."
-  ]},
-  {"bedroom": [
-    "Seeing what's inside Area 51 is every sci-fi nerd's dream!",
-    "'I will definitely being the greatest alien slayer!' you declare loudly as you hold up the gaming equipment.",
-    "You tear open the package and reveal the glorious alien slaying box set in front of you.",
-    "You then remember that you and your best friend Dave made plans to start the game together.",
-    "Dave is a video gaming diety.",
-    "Any game he picks up he becomes great insantly, then gets bored and quits.",
-    "He has even been scouted for pro teams for a variety of games already.",
-    "In contrast you put in countless hours into all of the games and have never been top tier.",
-    " 'Curse you Dave!' you mutter in your heart.",
-    "Perhaps you can get a head start on him with Alien Invasion and finally surpass him?",
-    {"choice": ["Wait for him.", "Get a head start."]}
-  ]}
+  {
+    section: 2,
+    background: "bedroom",
+    text: [
+      "You open your eyes and look around. You are in your nerded out room with your bed which looked like a spaceship and sci-fi figures everywhere. Star Wars, Star Trek, Aliens, every nerdy franchise you can think of.",
+      "But all of that pales in comparison to what arrives today...",
+      "Alien Invasion!"
+    ]
+  },
+  {
+    section: 3,
+    background: "gear",
+    text: [
+      "Alien Invasion was the hottest and most anticipated release of the year.",
+      "It was an augmented reality game that cmae with a headset and 'gun', and would augment your vision to show aliens in random places.",
+      "Players had to shoot and kill these aliens, and the player who killed the most aliens would receive an invitiation to meet the developers themselves at Area 51."
+    ]
+  },
+  {
+    section: 4,
+    background: "bedroom",
+    text: [
+      "Seeing what's inside Area 51 is every sci-fi nerd's dream!",
+      "'I will definitely being the greatest alien slayer!' you declare loudly as you hold up the gaming equipment.",
+      "You tear open the package and reveal the glorious alien slaying box set in front of you.",
+      "You then remember that you and your best friend Dave made plans to start the game together.",
+      "Dave is a video gaming diety.",
+      "Any game he picks up he becomes great insantly, then gets bored and quits.",
+      "He has even been scouted for pro teams for a variety of games already.",
+      "In contrast you put in countless hours into all of the games and have never been top tier.",
+      " 'Curse you Dave!' you mutter in your heart.",
+      "Perhaps you can get a head start on him with Alien Invasion and finally surpass him?",
+      {"choice": ["Wait for him.", "Get a head start."]}
+    ]
+  }
 ]
 
 export default class HomePage extends React.Component {
