@@ -91,8 +91,6 @@ export default class HomePage extends React.Component {
   makeChoice = (event) => {
     this.setState({
       choice: event
-    }, () => {
-      console.log(event)
     })
   }
 
