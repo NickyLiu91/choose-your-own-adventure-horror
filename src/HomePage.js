@@ -2,13 +2,13 @@ import React from "react";
 
 const story = [
   {
-    section: 1,
+    section: 0,
     background: "cover",
     text: ["Augmented Reality"]
   }
   ,
   {
-    section: 2,
+    section: 1,
     background: "bedroom",
     text: [
       "You open your eyes and look around. You are in your nerded out room with your bed which looked like a spaceship and sci-fi figures everywhere. Star Wars, Star Trek, Aliens, every nerdy franchise you can think of.",
@@ -17,7 +17,7 @@ const story = [
     ]
   },
   {
-    section: 3,
+    section: 2,
     background: "gear",
     text: [
       "Alien Invasion was the hottest and most anticipated release of the year.",
@@ -26,7 +26,7 @@ const story = [
     ]
   },
   {
-    section: 4,
+    section: 3,
     background: "bedroom",
     text: [
       "Seeing what's inside Area 51 is every sci-fi nerd's dream!",
@@ -40,13 +40,13 @@ const story = [
       " 'Curse you Dave!' you mutter in your heart.",
       "Perhaps you can get a head start on him with Alien Invasion and finally surpass him?",
       {choices: [
-        {choice: "Wait for him.", next: 5},
-        {choice: "Get a head start.", next: 6}
+        {choice: "Wait for him.", next: 4},
+        {choice: "Get a head start.", next: 5}
       ]}
     ]
   },
   {
-    section: 5,
+    section: 4,
     background: "bedroom",
     text: [
       "You decide to wait for Dave to get started.",
@@ -54,7 +54,7 @@ const story = [
     ]
   },
   {
-    section: 6,
+    section: 5,
     background: "bedroom",
     text: [
       "You decide to get a head start.",
@@ -67,8 +67,7 @@ export default class HomePage extends React.Component {
 
   state = {
     section: 0,
-    text: 0,
-    choice: ''
+    text: 0
   }
 
   next = () => {
@@ -85,8 +84,10 @@ export default class HomePage extends React.Component {
   }
 
   makeChoice = (event) => {
+    console.log(event)
     this.setState({
-      section: event
+      section: event,
+      text: 0
     })
   }
 
