@@ -41,6 +41,22 @@ const story = [
       "Perhaps you can get a head start on him with Alien Invasion and finally surpass him?",
       {choices: ["Wait for him.", "Get a head start."]}
     ]
+  },
+  {
+    section: 5,
+    background: "bedroom",
+    text: [
+      "You decide to wait for Dave to get started.",
+      "You promised him after all."
+    ]
+  },
+  {
+    section: 6,
+    background: "bedroom",
+    text: {
+      "You decide to get a head start.",
+      "Dave will finally be the one chasing after you this time!"
+    }
   }
 ]
 
