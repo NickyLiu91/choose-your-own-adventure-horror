@@ -39,7 +39,10 @@ const story = [
       "In contrast you put in countless hours into all of the games and have never been top tier.",
       " 'Curse you Dave!' you mutter in your heart.",
       "Perhaps you can get a head start on him with Alien Invasion and finally surpass him?",
-      {choices: ["Wait for him.", "Get a head start."]}
+      {choices: [
+        {choice: "Wait for him.", next: 5},
+        {choice: "Get a head start.", next: 6}
+      ]}
     ]
   },
   {
@@ -53,10 +56,10 @@ const story = [
   {
     section: 6,
     background: "bedroom",
-    text: {
+    text: [
       "You decide to get a head start.",
       "Dave will finally be the one chasing after you this time!"
-    }
+    ]
   }
 ]
 
@@ -83,13 +86,13 @@ export default class HomePage extends React.Component {
 
   makeChoice = (event) => {
     this.setState({
-      choice: event
+      section: event
     })
   }
 
   generateChoices = () => {
     return story[this.state.section].text[this.state.text].choices.map(
-      choice => <p onClick={(event) => {this.makeChoice(choice)}}>{choice}</p>
+      choice => <p onClick={(event) => {this.makeChoice(choice.next)}}>{choice.choice}</p>
     )
   }
 
