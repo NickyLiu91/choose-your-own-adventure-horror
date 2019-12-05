@@ -86,15 +86,17 @@ export default class HomePage extends React.Component {
 
   next = (event) => {
     if (this.state.text == story[this.state.section].text.length - 1) {
-      this.setState({
-        section: this.state.section + 1,
-        text: 0
-      })
-    } else if (event.next != null){
-      this.setState({
-        section: event.next,
-        text: 0
-      })
+      if (event.next != null){
+        this.setState({
+          section: event.next,
+          text: 0
+        })
+      } else {
+        this.setState({
+          section: this.state.section + 1,
+          text: 0
+        })
+      }
     } else {
       this.setState({
         text: this.state.text + 1
