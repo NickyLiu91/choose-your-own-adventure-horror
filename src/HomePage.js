@@ -63,7 +63,7 @@ const story = [
       "You decide to get a head start.",
       "Dave will finally be the one chasing after you this time!"
     ]
-  }
+  },
   {
     section: 6,
     background: "entrance",
@@ -84,10 +84,15 @@ export default class HomePage extends React.Component {
     text: 0
   }
 
-  next = () => {
+  next = (event) => {
     if (this.state.text == story[this.state.section].text.length - 1) {
       this.setState({
         section: this.state.section + 1,
+        text: 0
+      })
+    } else if (event.next != null){
+      this.setState({
+        section: event.next,
         text: 0
       })
     } else {
@@ -117,7 +122,7 @@ export default class HomePage extends React.Component {
         <div id='homePage'>
           <img src="images/cover.jpg" />
           <p>{story[this.state.section].text[this.state.text]}</p>
-          <p onClick={(event) => {this.next(event)}}>Begin</p>
+          <p onClick={(event) => {this.next(story[this.state.section])}}>Begin</p>
         </div>
       )
     } else {
@@ -133,7 +138,7 @@ export default class HomePage extends React.Component {
           <div id='homePage'>
             <img src={"images/" + story[this.state.section].background + ".jpg"}  />
             <p>{story[this.state.section].text[this.state.text]}</p>
-            <p onClick={(event) => {this.next(event)}}>Next</p>
+            <p onClick={(event) => {this.next(story[this.state.section])}}>Next</p>
           </div>
         )
       }
