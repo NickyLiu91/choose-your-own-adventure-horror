@@ -48,9 +48,12 @@ const story = [
   {
     section: 4,
     background: "bedroom",
+    next: 6,
     text: [
       "You decide to wait for Dave to get started.",
-      "You promised him after all."
+      "You promised him after all.",
+      "You put the box back down and continue to stare at the nerdy posters on your walls.",
+      "About half an hour later, you hear your door bell ring.",
     ]
   },
   {
@@ -59,6 +62,17 @@ const story = [
     text: [
       "You decide to get a head start.",
       "Dave will finally be the one chasing after you this time!"
+    ]
+  }
+  {
+    section: 6,
+    background: "entrance",
+    text: [
+      "You rush downstairs to find Dave at the door, in his hands is the same Alien Invasion game you had earlier.",
+      " 'Ready to go destroy some aliens?!' you say with barley hidden excitement.",
+      " 'You're really looking forward to this huh?' Dave replies.",
+      " 'Of course!' ",
+      " 'IF there is anything I love more than space and aliens, its hunting aliens!' you respond cheerfully."
     ]
   }
 ]
