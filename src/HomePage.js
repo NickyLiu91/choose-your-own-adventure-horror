@@ -59,9 +59,14 @@ const story = [
   {
     section: 5,
     background: "bedroom",
+    next: 7,
     text: [
       "You decide to get a head start.",
-      "Dave will finally be the one chasing after you this time!"
+      "Dave will finally be the one chasing after you this time!",
+      "You open the box and pull out the equipment.",
+      "A helmet with a visor and headset attached, and something that looks like a classic laser gun.",
+      "You search the box, but find no instructions.",
+      "You decide to try on the helmet to figure things out for yourself."
     ]
   },
   {
