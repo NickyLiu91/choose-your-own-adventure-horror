@@ -66,7 +66,8 @@ const story = [
       "You open the box and pull out the equipment.",
       "A helmet with a visor and headset attached, and something that looks like a classic laser gun.",
       "You search the box, but find no instructions.",
-      "You decide to try on the helmet to figure things out for yourself."
+      "You decide to try on the helmet to figure things out for yourself.",
+      "As soon as you put on the visor, your vision fades to black.",
     ]
   },
   {
@@ -84,7 +85,6 @@ const story = [
     section: 7,
     background: "virtual",
     text: [
-      "As soon as you put on the visor, your vision fades to black.",
       "After a couple of seconds, words start to materialize in front of you.",
       " 'Welcome to Alien Invader!' ",
       " 'The goal of the game is to hunt the most Aliens!' ",
