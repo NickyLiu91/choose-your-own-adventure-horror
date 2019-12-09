@@ -77,9 +77,25 @@ const story = [
       " 'Ready to go destroy some aliens?!' you say with barley hidden excitement.",
       " 'You're really looking forward to this huh?' Dave replies.",
       " 'Of course!' ",
-      " 'IF there is anything I love more than space and aliens, its hunting aliens!' you respond cheerfully."
+      " 'If there is anything I love more than space and aliens, its hunting aliens!' you respond cheerfully."
     ]
-  }
+  },
+  {
+    section: 7,
+    background: "virtual",
+    text: [
+      "As soon as you put on the visor, your vision fades to black.",
+      "After a couple of seconds, words start to materialize in front of you.",
+      " 'Welcome to Alien Invader!' ",
+      " 'The goal of the game is to hunt the most Aliens!' ",
+      " 'Aliens can be killed by pointing the attached laser gun at them, blowing them into pieces.' ",
+      " 'Each of your alien kills will be tracked, and the person who successfully hunted the most Aliens will be declared the winner!' ",
+      " 'The winner will be invited to meet with the developers and given a tour of Area 51, as a reward for your dedication to Aliens!' ",
+      " 'Note: The augmented reality effects will only take place during night time.' ",
+      " 'This is to make the experience as epic as possible.' ",
+      " 'If used during the day they will simply be a heavy pair of glasses.' ",
+    ]
+  },
 ]
 
 export default class HomePage extends React.Component {
