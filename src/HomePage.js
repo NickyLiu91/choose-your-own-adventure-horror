@@ -91,9 +91,21 @@ const story = [
       " 'Aliens can be killed by pointing the attached laser gun at them, blowing them into pieces.' ",
       " 'Each of your alien kills will be tracked, and the person who successfully hunted the most Aliens will be declared the winner!' ",
       " 'The winner will be invited to meet with the developers and given a tour of Area 51, as a reward for your dedication to Aliens!' ",
-      " 'Note: The augmented reality effects will only take place during night time.' ",
+      " 'Note: The augmented reality effects will only take place after 6:00 pm night time.' ",
       " 'This is to make the experience as epic as possible.' ",
       " 'If used during the day they will simply be a heavy pair of glasses.' ",
+      "Your vision then fades to black again."
+    ]
+  },
+  {
+    section: 8,
+    background: "bedroom",
+    text: [
+      "Color starts slowly going back into your vision, and the sight of your awesome room appear again.",
+      " 'I can barely tell I'm looking through a lens.' you mutter to yourself as you look around the room. ",
+      "Your eyes land on the Star Wars clockby your bedside.",
+      "6:30 pm",
+      " 'Time for a test run!' you declare while sprinting downstairs."
     ]
   },
 ]
