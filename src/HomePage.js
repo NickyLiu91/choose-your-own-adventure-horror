@@ -129,6 +129,30 @@ const story = [
       "The alien explodes into an unrecognizable chunk of blood and flesh.",
     ]
   },
+  {
+    section: 10,
+    background: "street",
+    text: [
+      "As you catch your breath, you hear a bell like ring, and something appears in the top right corner of your vision.",
+      " 'Alien Soldier killed. + 100 points' ",
+      "You forget all about your exhaustion.",
+      " 'I killed my first Alien! Hell yes!' you exclaim loudly!",
+      "You see movement to your left, and spin around, pointing your gun at the new target.",
+      "There you see your friend Dave with his hands up.",
+      " 'Woah there Arnold! It's just me.' he says with a light laugh.",
+      " 'Arnold killed robots, not Aliens you noob!' you respond with a bitteer voice while lowering your gun.",
+      "He was holding the helmet and gun in his hands.",
+      "You wait for him to put everything on, but in the meantime, you see another green shape leave the right corner of your vision",
+      " 'Found one! Lets go after it!' you shout while starting to run right.",
+      "However, Dave isn't following you.",
+      "You look back at him, and see him standing there with the helmet in hand looking uncertain.",
+      "What do you do?"
+      {choices: [
+        {choice: "Ask him what is wrong.", next: 11},
+        {choice: "Head for the alien. You can ask him what's wrong after!", next: 12}
+      ]}
+    ]
+  },
 ]
 
 export default class HomePage extends React.Component {
