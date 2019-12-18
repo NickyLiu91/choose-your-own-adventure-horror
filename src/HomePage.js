@@ -108,6 +108,27 @@ const story = [
       " 'Time for a test run!' you declare while sprinting downstairs."
     ]
   },
+  {
+    section: 9,
+    background: "street",
+    text: [
+      "You leave your house and walk down the mostly empty street.",
+      "A large, green, form appears in front of you.",
+      "You jump back in surprise, before realizing what this thing is.",
+      "An alien!",
+      "It has a humanoid shape, but much taller and more muscular.",
+      "It looked like a cross between a fantasy Orc and Predator from that famous movie.",
+      "As you stare at it in fascination, you get pulled back to reality when it lets out a loud roar and charges at you.",
+      "You instinctively turn and sprint the other way.",
+      "You turn to see it barreling down the street hot on your heels.",
+      "At this rate, it's going to catch you and eat you, or whatever aliens do to people they catch!",
+      "Your breath starts to catch in your throat, probably a result of sitting in your room and reading and watching movies about Aliens all day.",
+      "It is almost within grabbing range, and your fist hurts from how hard you are gripping onto something.",
+      "Then it hits you, you spin around as the Alien reaches for your face, and throw up right arm which holds the gun part of the kit.",
+      " 'DIE ALIEN SCUM!' you shout as you press the button, sending a red laser at the alien in front of you.",
+      "The alien explodes into an unrecognizable chunk of blood and flesh.",
+    ]
+  },
 ]
 
 export default class HomePage extends React.Component {
