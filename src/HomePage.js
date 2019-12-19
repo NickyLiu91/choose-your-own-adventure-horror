@@ -139,13 +139,12 @@ const story = [
       " 'I killed my first Alien! Hell yes!' you exclaim loudly!",
       "You see movement to your left, and spin around, pointing your gun at the new target.",
       "There you see your friend Dave with his hands up.",
-      " 'Woah there Arnold! It's just me.' he says with a light laugh.",
-      " 'Arnold killed robots, not Aliens you noob!' you respond with a bitteer voice while lowering your gun.",
+      "He gives you a wave, and you wave back at him.",
       "He was holding the helmet and gun in his hands.",
       "You wait for him to put everything on, but in the meantime, you see another green shape leave the right corner of your vision",
-      " 'Found one! Lets go after it!' you shout while starting to run right.",
+      "You spin to your right and immediately start moving after it.",
       "However, Dave isn't following you.",
-      "You look back at him, and see him standing there with the helmet in hand looking uncertain.",
+      "You look back at him, and see him standing there with the helmet on looking uncertain.",
       "What do you do?"
       {choices: [
         {choice: "Head for the alien. You can ask him what's wrong after!", next: 11}
@@ -160,7 +159,7 @@ const story = [
       "First things first, that Alien!",
       "You can ask him what's wrong after!",
       " 'Come on! I saw one go that way!' you shout as you take off after it.",
-      "You turn to see that Dave has finished putting on the headgear and is following you with a serious looking expression.",
+      "You turn to see that Dave is following you with a serious looking expression.",
       "You catch sight of the Alien again once you enter the park.",
       "This one looked more like lanky green orangutan, and it moved slowly like it was trying to sneak into the city.",
       "You point your gun at it and squeeze the trigger.",
@@ -173,6 +172,23 @@ const story = [
       "Now hes talking!"
     ]
   },
+  {
+    section: 12,
+    background: "street",
+    text: [
+      "Dave was always a shoot irst ask questions kind of guy when you played shooters together, so his hesitation seems odd.",
+      "You decide to ask what's bother him.",
+      "You stop moving and turn to face him with a questioning look.",
+      " 'Earlier, you said you saw an alien? To the right?' he asks slowly.",
+      "You nod your head and wait for him to continue.",
+      " 'The only thing I saw over there was an old man,' ",
+      "You pause.",
+      " 'Could it be that not everybody sees the same things?' he wonders aloud.",
+      " 'Only one way to find out!' you declare, as you move to follow after that alien? that you saw earlier.",
+      "Dave nods follows after you."
+    ]
+  },
+]
 ]
 
 export default class HomePage extends React.Component {
