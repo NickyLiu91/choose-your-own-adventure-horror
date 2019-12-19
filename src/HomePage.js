@@ -188,6 +188,27 @@ const story = [
       "Dave nods follows after you."
     ]
   },
+  {
+    section: 13,
+    background: "park",
+    text: [
+      "You guys roam the park blasting many different types of Aliens and racking up the points.",
+      "Alien Warriors, Alien Infiltrators, Alien Dogs which looked kind of like cute greeen puppies, even the occasional Alien Juggernaut, which looked like a cross between a Gorilla and the Rancor and was worth a whopping 500 points.",
+      "As you were hunting you often walked by other groups of people hunting as well, and upon eye contacting you guys would nod and raise your guns at each other.",
+      " 'This is awesome! This is just like the release of Pokemon GO!' you exclaim, excited about how many other nerds the game managed to make go outside.",
+      "After hunting for 2 hours you decide to head back and have dinner.",
+      "You say bye to Dave and put an end to the night's hunt."
+    ]
+  },
+  {
+    section: 14,
+    background: "room",
+    text: [
+
+    ]
+  },
+]
+]
 ]
 ]
 
