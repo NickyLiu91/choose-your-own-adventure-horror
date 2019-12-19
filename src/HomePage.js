@@ -148,9 +148,29 @@ const story = [
       "You look back at him, and see him standing there with the helmet in hand looking uncertain.",
       "What do you do?"
       {choices: [
-        {choice: "Ask him what is wrong.", next: 11},
-        {choice: "Head for the alien. You can ask him what's wrong after!", next: 12}
+        {choice: "Head for the alien. You can ask him what's wrong after!", next: 11}
+        {choice: "Ask him what is wrong.", next: 12},
       ]}
+    ]
+  },
+  {
+    section: 11,
+    background: "park",
+    text: [
+      "First things first, that Alien!",
+      "You can ask him what's wrong after!",
+      " 'Come on! I saw one go that way!' you shout as you take off after it.",
+      "You turn to see that Dave has finished putting on the headgear and is following you with a serious looking expression.",
+      "You catch sight of the Alien again once you enter the park.",
+      "This one looked more like lanky green orangutan, and it moved slowly like it was trying to sneak into the city.",
+      "You point your gun at it and squeeze the trigger.",
+      "The Alien explodes just like before, and you hear another bell sound.",
+      " 'Alien Iniltrator killed. + 50 points' ",
+      " 'Only 50 this time huh? Well, I guess it was much less big and scary looking.' you mutter whiel turning to Dave.",
+      " 'Did something happen earlier?' you ask him, referring back to his earleir hesitation.",
+      "But Dave shakes his head.",
+      " 'I think I just mis-saw something. Lets keep hunting!' he declares with a smile."
+      "Now hes talking!"
     ]
   },
 ]
