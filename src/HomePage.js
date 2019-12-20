@@ -204,9 +204,23 @@ const story = [
     section: 14,
     background: "room",
     text: [
-
+      "You arrive back in your room and stretch after you full day of alien hunting working out.",
+      "You look to the upper right corner off your screen.".
+      " 'Score: 2950' you read aloud as you take off the helmet and put down the gun.",
+      "You wonder how many points Dave has managed to get.",
+      "Thinking back on things, you are still unsure if everyone sees the same thing.",
+      "Did those guys you saw at the park see the same aliens as you?",
+      "Did you and Dave see the same aliens?",
+      "You shrug and decide to worry about it tommorow while heading down to dinner."
     ]
   },
+  {
+    section: 15,
+    background: "room",
+    text: [
+    ]
+  },
+]
 ]
 ]
 ]
