@@ -216,8 +216,20 @@ const story = [
   },
   {
     section: 15,
-    background: "room",
+    background: "school",
     text: [
+      "At school the next day everybody is talking about Alien Invader.",
+      "People are talking about their scores, and just listening you can tell you have much more than them.",
+      "What scrubs!",
+      "You turn over to look at Dave, who is the only one properly paying attention to the teacher.",
+      " 'Screw this guy, he is proabbly the best video game player here, yet he's the one who seems the least excited...' you mutter.",
+      "For that matter, you remember that you still haven't asked him for his score.",
+      "You decide to save that for later, as letting these guys know how much further ahead you are would motivate them to try to catch up.",
+      "That tour of Area 51 is yours!",
+      "You whittle the day away talking with people about Alien Invader until the bell rings.",
+      "You turn to Dave and he matches your gaze.",
+      "You signal to meet at your house again and he gives you a nod.",
+      "You walk passed the sighing teacher complaining about how nobody listened to a word he said and head home."
     ]
   },
 ]
