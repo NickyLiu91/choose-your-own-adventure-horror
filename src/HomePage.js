@@ -218,7 +218,9 @@ const story = [
     background: "school",
     text: [
       "At school the next day everybody is talking about Alien Invader.",
-      "People are talking about their scores, and just listening you can tell you have much more than them.",
+      "People are talking about their scores.",
+      "700s, 800s, even 1500 from one student, which makes everyone gasp in awe.",
+      "You smirk, as just listening you can tell that they won't be able to compete with you.",
       "What scrubs!",
       "You turn over to look at Dave, who is the only one properly paying attention to the teacher.",
       " 'Screw this guy, he is proabbly the best video game player here, yet he's the one who seems the least excited...' you mutter.",
@@ -241,7 +243,33 @@ const story = [
       "You raise both guns and take off, shooting every alien in sight, with Dave barely able to keep up with you.",
       "After two hours you sit on a bench exhausted from all that exercise, and take a look at your points.",
       "7500.",
-      "You remember that you didn't know Dave's score and turn to ask him."
+      "You remember that you didn't know Dave's score and turn to ask him.",
+      " 'By the way, I forgot to ask you yesterday.' ",
+      " 'How many points do you have?' ",
+      " 'Around 3500.' he replies, and glanes at you waiting for you to mention yours.",
+      " 'Wow, I thought you would have much more.' you say, genuinely surprised.",
+      " 'I just hit 7500.' you mention reluctantly, unsure of how Dave would react to the point gap between you two.",
+      "But Dave simply laughs it of.",
+      " 'Because you killed everything with such frenzy that there was nothing left for me.' ",
+      " 'It's like Alien's killed your family and you are taking vengeance for them or something.' ",
+      "You are relieved by his reaction, as whenever he beats you in video games you often found yourself getting salty, although you did your best not to show it.",
+      " 'My bad, I'll try to leave some for you next time, you say with a sheepish smile.' ",
+      "But dave just shrugs.",
+      " 'You love aliens right?' ",
+      "You nod."
+      " 'And you are probably more excited about the Area 51 tour then getting a tour of Heaven itself.' ",
+      " 'Definitely.' you say with another resolute nod."
+      " 'Then don't worry about it.' ",
+      " 'Win and get that tour' he says with a reassuring smile.",
+      "You smile and give another nod.",
+      " 'The tour is for the top 5 players.' ",
+      " 'So you better make it as well!' you declare.",
+      "Dave grins and puffs out his chest.",
+      " 'Of course, who do you think you're talking to?' ",
+      "That's right.",
+      "Dave is a god at video games, so there is nothing to worry about.",
+      "You will both get to enjoy that tour.",
+      "Feeling renewed, you jump back to your feet and continue hunting."
     ]
   },
 ]
