@@ -5,8 +5,7 @@ const story = [
     section: 0,
     background: "cover",
     text: ["Augmented Reality"]
-  }
-  ,
+  },
   {
     section: 1,
     background: "bedroom",
@@ -232,10 +231,19 @@ const story = [
       "You walk passed the sighing teacher complaining about how nobody listened to a word he said and head home."
     ]
   },
-]
-]
-]
-]
+  {
+    section: 16,
+    background: "park",
+    text: [
+      "After heading home, picking up the Alien Hunting gear and meeting up with Dave, you are once again at the park.",
+      "There are even more people than yesterday day around all with visors and laser guns in their hands.",
+      " 'Too bad none of these guys are going to get the prize.' you mutter with a smile on your face.",
+      "You raise both guns and take off, shooting every alien in sight, with Dave barely able to keep up with you.",
+      "After two hours you sit on a bench exhausted from all that exercise, and take a look at your points.",
+      "7500.",
+      "You remember that you didn't know Dave's score and turn to ask him."
+    ]
+  },
 ]
 
 export default class HomePage extends React.Component {
