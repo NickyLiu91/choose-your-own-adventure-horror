@@ -272,6 +272,26 @@ const story = [
       "Feeling renewed, you jump back to your feet and continue hunting."
     ]
   },
+  {
+    section: 17,
+    background: "bedroom",
+    text: [
+      "Another productive day of hunting.",
+      "You glace over at your points.",
+      "9350",
+      "You take off your gear and head down for dinner.",
+      "You find your mom downstairs with her arms crossed and a stern look on her face.",
+      " 'Both today and yesterday you have been staying outside really late.' ",
+      " 'But moooooom' you being in a whiny voice, before she cuts you off with a annoyed glare.",
+      "You sigh and start explaining Alien Invader to your mom, about how it is an augmented reality game that only works at night.",
+      "She barely has any reaction.",
+      "Man, trying to explain hip technology to your parents is a real pain.",
+      " 'It doesn't matter what kind of reality it is, being out so late is dangerous.' she declares adamantly.",
+      " 'Yeah yeah I got it' you say brushing her off while waving your hands.",
+      "She sighs and passes you your dinner, which you thank her for and proceed to inhale.",
+      "After you're done you head back to your room and prepare for the next day, counting exploding aliens to hlep you sleep."
+    ]
+  }
 ]
 
 export default class HomePage extends React.Component {
