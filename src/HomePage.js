@@ -280,6 +280,12 @@ const story = [
       "You glace over at your points.",
       "9350",
       "You take off your gear and head down for dinner.",
+    ]
+  },
+  {
+    section: 18,
+    background: "livingRoom",
+    text: [
       "You find your mom downstairs with her arms crossed and a stern look on her face.",
       " 'Both today and yesterday you have been staying outside really late.' ",
       " 'But moooooom' you being in a whiny voice, before she cuts you off with a annoyed glare.",
