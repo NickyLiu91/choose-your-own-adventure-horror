@@ -284,7 +284,7 @@ const story = [
   },
   {
     section: 18,
-    background: "livingRoom",
+    background: "livingroom",
     text: [
       "You find your mom downstairs with her arms crossed and a stern look on her face.",
       " 'Both today and yesterday you have been staying outside really late.' ",
