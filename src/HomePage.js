@@ -317,6 +317,24 @@ const story = [
       "You excitedly join the conversation, although you continue to make sure your score is a secret.",
       "Time flies by and school ends almost instantly."
     ]
+  },
+  {
+    section: 20,
+    background: "livingroom",
+    text: [
+      "You arrive home and head straight to your room to pick up your alien hunting gear.",
+      "But you see your mom watching TV with a serious expression on her face in the living room.",
+      "Weird."
+      "Your mom was never one to watch TV for entertainment.",
+      "She notices you and beckons you over.",
+      " 'Take a look at this' she says in a grave voice while pointing to the TV.",
+      "A news channel is on.",
+      " 'Several people have been found in a coma lying on the streets at _____ neighborhood.' ",
+      "You stare disinterestedly as the reporter goes through the apparent widespread case of people falling into a coma.",
+      "Then it hits you.",
+      "____ neighborhood.",
+      "That is YOUR neighborhood."
+    ]
   }
 ]
 
