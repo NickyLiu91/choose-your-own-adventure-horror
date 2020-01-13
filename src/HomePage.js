@@ -295,7 +295,27 @@ const story = [
       " 'It doesn't matter what kind of reality it is, being out so late is dangerous.' she declares adamantly.",
       " 'Yeah yeah I got it' you say brushing her off while waving your hands.",
       "She sighs and passes you your dinner, which you thank her for and proceed to inhale.",
-      "After you're done you head back to your room and prepare for the next day, counting exploding aliens to hlep you sleep."
+      "After you're done you head back to your room and prepare for the next day, counting exploding aliens to help you sleep."
+    ]
+  },
+  {
+    section: 19,
+    background: "school",
+    text: [
+      "Once again the class is excitedly talking about Alien Invader.",
+      "The highest score you hear mentioned is 3000.",
+      "At this rate you could almost stop hunting now and win already.",
+      "Of course, hunting aliens was awesome and you weren't about to stop anyway.",
+      "Still, you wonder if their low scores is related to you slaughtering everything first?",
+      "The teacher comes and tries to start teaching, but is promptly ignored again.",
+      "You almost feel bad for him.",
+      "He looks dejected for a little bit, but shortly after he raises his head with determined look in his eyes.",
+      " 'ATTENTION CLASS' he bellows in a loud voice.",
+      "The class is surprised by him suddenly raising his voice and stares silently at him.",
+      " 'So, how many aliens did you kills last night?' ",
+      "The class erupts into cheering, and the Alien Invader discussion continues, now with the teacher included.",
+      "You excitedly join the conversation, although you continue to make sure your score is a secret.",
+      "Time flies by and school ends almost instantly."
     ]
   }
 ]
