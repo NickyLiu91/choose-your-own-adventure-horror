@@ -329,13 +329,24 @@ const story = [
       "She notices you and beckons you over.",
       " 'Take a look at this' she says in a grave voice while pointing to the TV.",
       "A news channel is on.",
-      " 'Several people have been found in a coma lying on the streets at _____ neighborhood.' ",
-      "You stare disinterestedly as the reporter goes through the apparent widespread case of people falling into a coma.",
+      " 'Three people have been found in a coma lying on the streets at _____ neighborhood.' ",
+      " 'They were found at 7 am in the morning when a jogger reported seeing an unconscious person lying on the floor.' ",
+      " 'When police arrived to investigate a call, it reveals that people have seen several people in a similar state.' ",
+      " 'Three people were found so far, it is unknown if there were more.' ",
+      " 'Those found appear to be brething but so far remain unconscious in the hospital.' "
+      "You stare disinterestedly as the reporter talks about the case.",
       "Then it hits you.",
       "____ neighborhood.",
       "That is YOUR neighborhood."
     ]
-  }
+  },
+  {
+    section: 21,
+    background: "livingroom",
+    text: [
+      ""
+    ]
+  },
 ]
 
 export default class HomePage extends React.Component {
