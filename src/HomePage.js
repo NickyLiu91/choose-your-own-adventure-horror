@@ -333,28 +333,31 @@ const story = [
       " 'They were found at 7 am in the morning when a jogger reported seeing an unconscious person lying on the floor.' ",
       " 'When police arrived to investigate a call, it reveals that people have seen several people in a similar state.' ",
       " 'Three people were found so far, it is unknown if there were more.' ",
+      " 'All of them so far were found wearing the equipment for popular new augmented reality game Alien Invader.' ",
       " 'Those found appear to be in stable condition with no injuries, but so far remain unconscious in the hospital.' ",
-      " 'All of the victims so far were found wearing the equipment for popular new augmented reality game Alien Invader.' ",
-      " 'It is possible that someone is targetting and attacking people are playing Alien Invader late at night.' ",
-      " 'Caution is advised when playing, and it is recommended that one play in a large group and only in a safe place.' ",
-      "You stare disinterestedly as the reporter talks about the case.",
-      "Then it hits you.",
-      "____ neighborhood.",
-      "That is YOUR neighborhood."
     ]
   },
   {
     section: 21,
     background: "livingroom",
     text: [
-      "Your mom turns to look at as you silently contemple what you have just heard.",
+      "Your mom turns to look at as you.",
       " 'I don't think you should keep going out at night. It might be dangerous.' ",
       " 'But if I stop, other people will pass me!' you say in horror.",
       " 'Pass you?' your mom tilts her head in confusion.",
       " 'The winner gets a trip to Area 51 to talk to scientists about aliens. I told you ebfore didn't I? ",
       " 'Whatever, is that trip worth being attacked and getting sent to the hospital?' your mom demands.",
-      " 'It'll be fine. It's just a coincidence, its not like the news said anyone was attacked or anything. You don't even know if thye collapsed at night.' you say dismissively. ",
-      " 'Besides, Dave will be with me. We can watch each other's backs.' "
+      " 'It'll be fine. It's just a coincidence, the news said that nobody was injured, so there's no proof that anyone was actually attacked.' ",
+      " 'Besides, Alien Invader is being played by literally everyone right now, even my teacher. It's no surprise if there were some people who weren't watching where they were going and tripped and hit their heads on something.' '",
+      "Your mom ponders your words for a moment and shurgs.",
+      " 'I guess that makes sense. Just make sure you are careful when you're playing outside okay?' ",
+      "That was easier than you thought.",
+      "You flash her a smile and do your best to assuage her worries.",
+      " 'Don't worry, I'll be careful mom, Besides, Dave will be with me, so nothing's gonna happen.' ",
+      " 'Speaking of which, he is probably waiting for me at the park right now, so I gotta go.' ",
+      "Your mom nods and you run passed her to your room and gather your things.",
+      "Within a minute you are out the door and headed for the park.",
+      "It's great that mom is so reasonable."
     ]
   },
 ]
