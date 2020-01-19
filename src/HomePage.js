@@ -360,6 +360,27 @@ const story = [
       "It's great that mom is so reasonable."
     ]
   },
+  {
+    section: 22,
+    background: "park",
+    text: [
+      "When you get to the park you find Dave already there waiting.",
+      " 'Sorry to keep you waiting!' you shout as you run up to him.",
+      " 'Don't worry, I just got here a little bit too. Parents saw the news?' ",
+      "You sigh and nod.",
+      " 'Did you get lectured about it as well?' you ask.",
+      "Dave nods.",
+      " 'Apparently a bunch of people with Alien Invader gear on were found unconscious in the morning. What do you think of it?' Dave looks over to you.",
+      " 'It's probably people who got to focused on chasing aliens and weren't watching where they were going and fell or something. It might even just be who have weak hearts and got scared to death by an alien popping out of nowhere.' you say dismissively.",
+      " 'So many people are playing there is bound to be some dumb people or old people who do those things, ya know?' ",
+      " '...' "
+      "You look over at Dave, who hasn't responded yet.",
+      "For a moment he looks deep in thought for a moment, but almost instantly he is back to his usual self.",
+      " 'That makes sense.' he says with a nod.",
+      "You stretch and change the topic.",
+      " 'So, ready to hunt some alien scum?' "
+    ]
+  },
 ]
 
 export default class HomePage extends React.Component {
