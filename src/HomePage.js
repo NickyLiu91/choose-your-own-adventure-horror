@@ -333,7 +333,10 @@ const story = [
       " 'They were found at 7 am in the morning when a jogger reported seeing an unconscious person lying on the floor.' ",
       " 'When police arrived to investigate a call, it reveals that people have seen several people in a similar state.' ",
       " 'Three people were found so far, it is unknown if there were more.' ",
-      " 'Those found appear to be brething but so far remain unconscious in the hospital.' "
+      " 'Those found appear to be in stable condition with no injuries, but so far remain unconscious in the hospital.' ",
+      " 'All of the victims so far were found wearing the equipment for popular new augmented reality game Alien Invader.' ",
+      " 'It is possible that someone is targetting and attacking people are playing Alien Invader late at night.' ",
+      " 'Caution is advised when playing, and it is recommended that one play in a large group and only in a safe place.' ",
       "You stare disinterestedly as the reporter talks about the case.",
       "Then it hits you.",
       "____ neighborhood.",
@@ -344,7 +347,14 @@ const story = [
     section: 21,
     background: "livingroom",
     text: [
-      ""
+      "Your mom turns to look at as you silently contemple what you have just heard.",
+      " 'I don't think you should keep going out at night. It might be dangerous.' ",
+      " 'But if I stop, other people will pass me!' you say in horror.",
+      " 'Pass you?' your mom tilts her head in confusion.",
+      " 'The winner gets a trip to Area 51 to talk to scientists about aliens. I told you ebfore didn't I? ",
+      " 'Whatever, is that trip worth being attacked and getting sent to the hospital?' your mom demands.",
+      " 'It'll be fine. It's just a coincidence, its not like the news said anyone was attacked or anything. You don't even know if thye collapsed at night.' you say dismissively. ",
+      " 'Besides, Dave will be with me. We can watch each other's backs.' "
     ]
   },
 ]
