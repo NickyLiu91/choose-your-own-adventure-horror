@@ -378,7 +378,20 @@ const story = [
       "For a moment he looks deep in thought for a moment, but almost instantly he is back to his usual self.",
       " 'That makes sense.' he says with a nod.",
       "You stretch and change the topic.",
-      " 'So, ready to hunt some alien scum?' "
+      " 'So, ready to hunt some alien scum?' you ask as you put on the visor.",
+    ]
+  },
+  {
+    section: 23,
+    background: "destroyedPark",
+    text: [
+      "Thes second you do, everything is different.",
+      "The park is in shambles, benches and lamposts are bent and broken broken.",
+      "Debris is scattered everywhere, and large regions of the park are on fire.",
+      "It looks like a scene straight out of a war movie.",
+      "As you take in the hellish scenery, a loud rumble turns your attention to the right.",
+      "Out of the flaming tres emerges an beastial alien bigger than the size of a house.",
+      "It lets a beastial roar that makes your heart stop, and it charges straight at you."
     ]
   },
 ]
