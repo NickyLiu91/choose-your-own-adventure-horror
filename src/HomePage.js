@@ -415,6 +415,22 @@ const story = [
       "And the next second your vision explodes into a spray of red."
     ]
   },
+  {
+    section: 24,
+    background: "bloodyVision",
+    text: [
+      "You scream and fall backwards, desperately trying to get away from the alien in front of you.",
+      "Your vision is gone, all you see is black and red.",
+      "A wave of fear courses through your entire body, but you feel a strong grip on your arm.",
+      " 'It's just the AR! Calm down!' ",
+      "Recognizing your friend's voice, you blindly reach towards your eyes and your arm crashes into your headset.",
+      "You desperately tear it off your head, once again revealing the quiet scenery off the night park.",
+      "You breathe out quick and heavy breaths, both for all the running you did earlier and as you try to calm yourself from what you just experienced.",
+      " 'Was that... death?' you mutter, staring at the head gear in your hands.",
+      " 'The game manual didn't mention anything about dying' Dave replies from next to you, having taken off his head gear as well.",
+      " 'What happened?' "
+    ]
+  },
 ]
 
 export default class HomePage extends React.Component {
