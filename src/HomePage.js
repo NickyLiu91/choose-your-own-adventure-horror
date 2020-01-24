@@ -383,7 +383,7 @@ const story = [
   },
   {
     section: 23,
-    background: "destroyedPark",
+    background: "firePark",
     text: [
       "Thes second you do, everything is different.",
       "The park is in shambles, benches and lamposts are bent and broken broken.",
@@ -403,7 +403,16 @@ const story = [
       "Right between the eyes!",
       "But before you even have time to celebrate the creature is upon you and swipes its arm which looks more like a gigantic tree trunk at you.",
       "You throw youself back and barely avoid crashing into a bench.",
-      "You look up and see that above the monsters head it an enormous green bar."
+      "You look up and see that above the monsters head is an enormous green bar.",
+      "To the right it a small red chip.",
+      "You immediately register it as an hp bar.",
+      "The red must be the damage your earlier shot inflicted.",
+      "About 3% health missing.",
+      "You unload shot after shot at the juggernaut in front of you as you desperately run away from it and try to avoid running into things.",
+      "Each shot barely moves its hp bar.",
+      "You have only took out about 30% when you cna feel your legs screaming at you to stop.",
+      "You see his claws approaching your vision extremely fast.",
+      "And the next second your vision explodes into a spray of red."
     ]
   },
 ]
