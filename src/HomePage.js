@@ -394,6 +394,18 @@ const story = [
       "It lets a beastial roar that makes your heart stop, and it charges straight at you."
     ]
   },
+  {
+    section: 24,
+    background: "destroyedPark",
+    text: [
+      "You immediately aim for its head and take a shot.",
+      "A direct hit!",
+      "Right between the eyes!",
+      "But before you even have time to celebrate the creature is upon you and swipes its arm which looks more like a gigantic tree trunk at you.",
+      "You throw youself back and barely avoid crashing into a bench.",
+      "You look up and see that above the monsters head it an enormous green bar."
+    ]
+  },
 ]
 
 export default class HomePage extends React.Component {
