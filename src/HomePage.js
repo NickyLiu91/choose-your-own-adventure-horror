@@ -428,7 +428,17 @@ const story = [
       "You breathe out quick and heavy breaths, both for all the running you did earlier and as you try to calm yourself from what you just experienced.",
       " 'Was that... death?' you mutter, staring at the head gear in your hands.",
       " 'The game manual didn't mention anything about dying' Dave replies from next to you, having taken off his head gear as well.",
-      " 'What happened?' "
+      " 'What happened?' ",
+      " 'When I saw that thing claws about to reach me, I saw my life flashing before my eyes. Like when you are looking down at the top of a rollercoaster.' ",
+      " 'Then all I saw was blood. I thought I had my eyes gouged out.' ",
+      " 'That realistic?' ",
+      " 'Yeah. I can definitely see people having a heart attack or something if this happened to them.' you say with your voice still unsteady.",
+      " 'It almost happened to you right now after all.' Dave said with a chuckle.",
+      "You leap back to your feet and wipe the dirt off of your pants.",
+      " 'Okay that thing's doing down this time.' you declare and raise your headgear."
+      " 'Ready?' ",
+      "Dave shows his answer by putting by raising his headgear as well."
+      " 'It's alien hunting time!' you shotu as both of you return back to the game."
     ]
   },
 ]
