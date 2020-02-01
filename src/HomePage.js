@@ -246,7 +246,7 @@ const story = [
       "You remember that you didn't know Dave's score and turn to ask him.",
       " 'By the way, I forgot to ask you yesterday.' ",
       " 'How many points do you have?' ",
-      " 'Around 3500.' he replies, and glanes at you waiting for you to mention yours.",
+      " 'Around 3500.' he replies, and glances at you waiting for you to mention yours.",
       " 'Wow, I thought you would have much more.' you say, genuinely surprised.",
       " 'I just hit 7500.' you mention reluctantly, unsure of how Dave would react to the point gap between you two.",
       "But Dave simply laughs it of.",
@@ -438,7 +438,27 @@ const story = [
       " 'Okay that thing's doing down this time.' you declare and raise your headgear."
       " 'Ready?' ",
       "Dave shows his answer by putting by raising his headgear as well."
-      " 'It's alien hunting time!' you shotu as both of you return back to the game."
+      " 'It's alien hunting time!' you shout as both of you return back to the game."
+    ]
+  },
+  {
+    section: 25,
+    background: "destroyedPark",
+    text: [
+      "You and Dave spend the next hour running from the boss while steadily chipping its life down.",
+      "Your determination to take revenge on this overgrown gorilla for makng you look dumb earlier outweighs the pain you feel in your legs from running.",
+      "Eventually the monster finally falls.",
+      "You hear fanfare and on the top right of your screen you see the point gain.",
+      "3000 points.",
+      "Your jaw drops at the enormous amount of points.",
+      "That was almost half of your total points!",
+      "All it akes is a couple of these bosses and someone would be able to pass you instantly!",
+      "And if future bosses gave even more, then you would fall even further behind!",
+      "If you wanted to stay a head, you would have to do your best to hunt down any future bosses that spawn.",
+      "Luckily for you, you didn't see anyone else the entire time you and Dave were fighting this boss.",
+      "This means you are now even further ahead of everyonee else now!",
+      "And Dave should be up there with you as well!",
+      "But were things that simple?"
     ]
   },
 ]
