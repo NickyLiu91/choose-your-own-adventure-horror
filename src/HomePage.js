@@ -461,6 +461,18 @@ const story = [
       "But were things that simple?"
     ]
   },
+  {
+    section: 26,
+    background: "park",
+    text: [
+      "Each night you have been here you have seen tons of people.",
+      "Based on their actions the aliens generated for each person were different, aside from you and Dave for some reason.",
+      "That could mean that only you and Dave saw this boss.",
+      "But it could mean that people saw a boss at a different time, since you are unsure of why this one spawned now, or whether or not it was even triggered based on a condition.",
+      "But more importantly, tonight is the one night where you did not see other people at all, and you ran a lot.",
+      "Could there be a correlation between the lack or people and the spawning of this boss?"
+    ]
+  },
 ]
 
 export default class HomePage extends React.Component {
